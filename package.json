@@ -1,0 +1,13 @@
+{
+  "name": "es-cli-template-html",
+  "version": "0.1.0",
+  "description": "",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunny-lab/es-cli-template-html.git"
+  },
+  
+  "author": "yedaodao",
+  "license": "MIT"
+}

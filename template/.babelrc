@@ -1,0 +1,31 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "ie >= 11",
+            "Edge >= 12",
+            "Safari >4",
+            "Chrome >= 21",
+            "Firefox >= 28"
+          ]
+        }
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "add-module-exports",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-export-extensions"
+  ],
+  "env": {
+    "development": {
+      "sourceMaps": "inline"
+    }
+  }
+}
